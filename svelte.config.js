@@ -21,9 +21,9 @@ const config = {
   }),
   kit: {
     adapter: adapter({
-			fallback: 'index.html',
-			precompress: false
-		}),
+      fallback: 'index.html',
+      precompress: false,
+    }),
     alias: {
       $assets: './src/frontend/static',
       $declarations: './src/declarations/',
