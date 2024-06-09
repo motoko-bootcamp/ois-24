@@ -4,7 +4,6 @@
   import { isBusy } from '$lib/stores/busy.store';
   import { goto } from '$app/navigation';
   import MenuMobile from '../ui/MenuMobile.svelte';
-  import IconLogoBright from '$components/icons/IconLogoBright.svelte';
   import { authStore } from '$lib/stores/auth.store';
   import { userStore } from '$lib/stores/user.store';
   import IconTelegram from '$components/icons/IconTelegram.svelte';
@@ -45,12 +44,17 @@
 
 <header class="sticky">
   <div class="content-wrapper">
-    <div class="left">
-      <div class="logo">
-        <a href="https://icp-cc.com/" target="_blank" rel="noreferrer">
-          <IconLogoBright />
-        </a>
-      </div>
+    <div class="w-26">
+      <a href="/" class="flex max-h-full items-center" rel="noreferrer">
+        <img
+          src={`/ois-logo.webp`}
+          class="flex-initial w-14 pr-2"
+          alt="ois logo"
+        />
+        <span class="font-semibold text-3xl flex-auto text-white"
+          >Open Internet Summer 24</span
+        >
+      </a>
     </div>
 
     {#if $authStore.identity !== null && $userStore.user !== null}
@@ -200,11 +204,6 @@
         text-decoration: underline;
       }
     }
-  }
-
-  .logo {
-    height: 50px;
-    width: 150px;
   }
 
   .right,

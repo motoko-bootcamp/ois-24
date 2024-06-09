@@ -6,10 +6,12 @@
   @include button.standard;
   @include shadow.shadow;
   color: var(--color-black);
-  background-color: var(--color-yellow);
-  border-radius: 10px;
-  padding: 1rem;
+  background-color: var(--color-primary);
+  border-radius: 50rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
   transition: background-color 0.3s ease; // Smooth transition for hover
-  font-family: 'Nasalization Rg', sans-serif;
-  min-width: 120px;
+  font-weight: 600;
 }

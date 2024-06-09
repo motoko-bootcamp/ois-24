@@ -56,5 +56,6 @@
 {/await}
 
 <style lang="scss" global>
+  @import '../css/tailwind.css';
   @import '../lib/styles/global.scss';
 </style>
