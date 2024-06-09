@@ -3,7 +3,6 @@
   import { signOutClose } from '$lib/services/auth.services';
   import { isBusy } from '$lib/stores/busy.store';
   import MenuMobile from '../ui/MenuMobile.svelte';
-  import IconLogoBright from '$components/icons/IconLogoBright.svelte';
   import { authStore } from '$lib/stores/auth.store';
   import IconTelegram from '$components/icons/IconTelegram.svelte';
 

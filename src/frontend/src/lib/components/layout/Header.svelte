@@ -206,11 +206,6 @@
     }
   }
 
-  .logo {
-    height: 50px;
-    width: 150px;
-  }
-
   .right,
   .hide-on-mobile {
     display: flex;
