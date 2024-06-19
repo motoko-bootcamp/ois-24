@@ -5,7 +5,6 @@
   import { getValuePrize } from '$lib/utils/prices.utils';
   import { isOpen, isPending } from '$lib/utils/airdrops.utils';
   import IconX from '$components/icons/IconX.svelte';
-  import IconTelegram from '$components/icons/IconTelegram.svelte';
   import IconWebsite from '$components/icons/IconWebsite.svelte';
 
   const white = '#ffffff';
@@ -105,11 +104,6 @@
     <div class="icon-website">
       <a href={airdrop.metadata.learnMore} target="_blank" rel="noreferrer">
         <IconWebsite color={white} width={26} />
-      </a>
-    </div>
-    <div class="icon-openchat">
-      <a href={airdrop.metadata.chat} target="_blank" rel="noreferrer">
-        <IconTelegram color={white} width={26} />
       </a>
     </div>
   </div>

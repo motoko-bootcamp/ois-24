@@ -18,6 +18,15 @@ Install node, mops, dfx.
 - (new tab) `dfx start`
 - (previous tab) `dfx deploy` or `npm run dev`
 
+
+# Roadmap
+
+[x] UI revamp (navbar and global)
+[] UI revamp (footer pages)
+[] Login
+[] Create Account - Account Management?
+[] ...
+
 ## Credits
 
 Created by [seb_icp](https://x.com/seb_icp/), and [Tiago89](https://github.com/tiagoicp) with love ❤️

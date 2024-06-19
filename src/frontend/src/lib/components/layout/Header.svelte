@@ -6,7 +6,6 @@
   import MenuMobile from '../ui/MenuMobile.svelte';
   import { authStore } from '$lib/stores/auth.store';
   import { userStore } from '$lib/stores/user.store';
-  import IconTelegram from '$components/icons/IconTelegram.svelte';
 
   let open = false;
 
@@ -120,12 +119,6 @@
     rel="noreferrer"
   >
     🚀 LIVE - ICPCC DAO SNS - Participate NOW! 🚀
-  </a>
-</div>
-
-<div class="floating-telegram">
-  <a href="https://t.me/+WT1U8eme-jZhMGMx" target="_blank" rel="noreferrer">
-    <IconTelegram width={26} color={'var(--color-black'} />
   </a>
 </div>
 

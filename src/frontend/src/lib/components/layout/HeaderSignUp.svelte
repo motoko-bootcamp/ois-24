@@ -4,7 +4,6 @@
   import { isBusy } from '$lib/stores/busy.store';
   import MenuMobile from '../ui/MenuMobile.svelte';
   import { authStore } from '$lib/stores/auth.store';
-  import IconTelegram from '$components/icons/IconTelegram.svelte';
 
   let open = false;
 
@@ -87,12 +86,6 @@
     </div>
   </div>
 </header>
-
-<div class="floating-telegram">
-  <a href="https://t.me/+WT1U8eme-jZhMGMx" target="_blank" rel="noreferrer">
-    <IconTelegram width={26} color={'var(--color-black'} />
-  </a>
-</div>
 
 <style lang="scss">
   @use '../../styles/mixins/button' as *;
